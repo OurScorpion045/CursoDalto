@@ -1,0 +1,12 @@
+.box {
+    box-sizing: border-box;
+    background: #0f8fe0;
+    text-align: center;
+    padding: 50px;
+    width: 45%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #ffffff;
+    border: 5px, solid, #00ffbf;
+}
