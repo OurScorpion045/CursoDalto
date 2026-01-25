@@ -1,0 +1,11 @@
+.ingrediente-faltante {
+    color:red;
+}
+
+.ingrediente-obtenido {
+    color:lightblue;
+}
+
+#ingrediente-secreto {
+    color:lightgreen;
+}
