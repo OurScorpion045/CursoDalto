@@ -1,33 +1,103 @@
-.card {
-    background: lightcyan;
+.blue-card {
+    background: linear-gradient(to top, #15f7, 70%, transparent);
     padding: 1px 10px;
     border-radius: 10px;
-    width: 80%;
-    margin: auto;
+    width: 30vw;
+    box-shadow: 0 0 10px 0 #0006;
+    box-sizing: border-box;
+    border: 5px solid 0006;
+    display: inline-block;  
+    margin: 20px;
+}
+
+.red-card {
+    background: linear-gradient(to top, #f517, 70%, transparent);
+    padding: 1px 10px;
+    border-radius: 10px;
+    width: 30vw;
+    box-shadow: 0 0 10px 0 #0006;
+    box-sizing: border-box;
+    border: 5px solid 0006;
+    display: inline-block;  
+    margin: 70px 20px;
+}
+
+.green-card {
+    background: linear-gradient(to top, #1f57, 70%, transparent);
+    padding: 1px 10px;
+    border-radius: 10px;
+    width: 30vw;
+    box-shadow: 0 0 10px 0 #0006;
+    box-sizing: border-box;
+    border: 5px solid 0006;
+    display: inline-block;  
+    margin: 20px;
 }
 
 body {
-    background: lightblue;
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Montserrat;
+    margin: 0;
 }
 
-h1 {
+.card-title {
     font-family: Montserrat;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
+    color: #ffe;
+    text-shadow: #0006;
+    letter-spacing: 2px;
 }
 
-h2 {
+.card-subtitle {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
+    color: #ffe;
+    text-shadow: 0 0 10px #0006;
+    letter-spacing: 1.5px;
 }
 
-p {
+.blue-card-text {
     font-family: Montserrat;
+    width: 300px;
+    margin: 20px auto;
     text-align: justify;
     font-weight: 400;
-    padding: 5px 20px;
-    background: white;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom,#59f9, #15f9);
     border-radius: 5px;
+    box-shadow: 0 0 10px 0 #0006;
+    color: #ffd;
+    line-height: 1.4;
+}
+
+.red-card-text {
+    font-family: Montserrat;
+    width: 300px;
+    margin: 20px auto;
+    text-align: justify;
+    font-weight: 400;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom,#f559, #f517);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #0006;
+    color: #ffd;
+    line-height: 1.4;
+}
+
+.green-card-text {
+    font-family: Montserrat;
+    width: 300px;
+    margin: 20px auto;
+    text-align: justify;
+    font-weight: 400;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom,#1f19, #1f57);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #0006;
+    color: #ffd;
+    line-height: 1.4;
 }
