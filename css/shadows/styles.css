@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 280px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #9f9f9f;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+    color: #333;
+    line-height: 1.2;
+    text-shadow: 0 0 5px #f88;
+}
+
+.ada-13 {
+    width: 240px;
+    margin: auto;
+    filter: drop-shadow(0 0 5px #0007);
+}
