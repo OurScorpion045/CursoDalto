@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #222;
+    color: #ededed;
+}
+
+form {
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 55px #fff2;
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0003;
+    background-color: transparent;
+    color: #ededed;
+    margin-top: 4px;
+    margin: 6px 0;
+}
+
+fieldset {
+    margin: 10px 0;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border: 1px solid #ddd6;
+}
+
+legend {
+    padding: 0 6px;
+}
+

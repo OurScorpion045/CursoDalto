@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <!--Simple inputs-->
+            <div class="form_input">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" placeholder="Juan Hernandez" id="nombre">
+            </div>
+            <div class="form_input">
+                <label for="correo">Email</label>
+                <input type="email" placeholder="example@gmail.com" id="correo">
+            </div>
+            <div class="form_input">
+                <label for="asunto">Asunto</label>
+                <input type="text" placeholder="Escribe el asunto de tu mensaje" id="asunto">
+            </div>
+        </fieldset>
+        <!--Select & Option-->
+        <div class="form_input">
+            <label for="tipo-usuario">Selecciona un tipo de usuario</label>
+            <select name="tipo-usuario">
+                <option value="usuario01">Seguidor</option>
+                <option value="usuario02">Empresa</option>
+                <option value="usuario03">Otro</option>
+            </select>
+        </div>
+        <!--Datalist & Option-->
+        <div class="form_input">
+            <label for="referente">Referente</label>
+            <input list="referente" name="referente">
+            <datalist id="referente" name="opciones-referentes">
+                <option value="redes-sociales">Redes sociales</option>
+                <option value="youtube">Youtube</option>
+                <option value="otro">Otro</option>
+            </datalist>
+        </div>
+        <!--TextArea-->
+        <div class="form_input">
+            <label for="descripcion">Descripcion</label>
+            <textarea rows="6" placeholder="Descripcion generica..." id="descripcion"></textarea>
+        </div>
+        <div class="form_input">
+            <label for="terminos">Acepto los terminos y condiciones</label>
+            <input class="checkbox" type="checkbox" id="terminos">
+        </div>
+    </form>
+</body>
+</html>
