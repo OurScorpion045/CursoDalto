@@ -18,7 +18,7 @@ form {
     padding: 6px 20px;
 }
 
-input, textarea {
+input, textarea, select {
     width: 100%;
     box-sizing: border-box;
     padding: 6px 12px;
@@ -29,6 +29,10 @@ input, textarea {
     background-color: transparent;
     color: #ededed;
     margin-top: 4px;
+}
+
+option {
+    background-color: #444;
 }
 
 h2 {
@@ -57,5 +61,5 @@ label {
 }
 
 .checkbox {
-    
+    width: auto;
 }
