@@ -1,0 +1,25 @@
+/* Selector por atributo */
+
+img[src="fallout.jpeg"] {
+    width: 50vw;
+    margin-left: 25%;
+}
+
+/* Selector por hijo directo */
+
+li > em {
+    color: #f22;
+}
+
+/* Selector de hermano adyacente */
+
+h1 + p {
+    color: #2af
+}
+
+/* Selector de hermanos generales */
+
+h1 ~ p {
+    color: #dfd;
+    text-shadow: 0 0 4px #0006;
+}
