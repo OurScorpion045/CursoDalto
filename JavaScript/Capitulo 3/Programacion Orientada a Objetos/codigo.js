@@ -22,7 +22,6 @@ class Perro extends Animal {
 
     set setInformacion(newRaza) {
         this.raza = newRaza
-        this.informacion = `Soy un ${this.especie}, tengo ${this.edad} años, soy de color ${this.color} y mi raza es ${this.raza}`;
     }
 
     get getInformacion() {
