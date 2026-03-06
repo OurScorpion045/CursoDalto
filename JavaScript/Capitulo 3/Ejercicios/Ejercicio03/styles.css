@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#games-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#command-card, .game-card {
+    border: solid 3px #2e2e2e;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.game-card {
+    transition: background-color 0.1s ease-in-out;
+}
+
+.game-card:hover {
+    background-color: #3e3e3e;
+    color: #ededed;
+}
