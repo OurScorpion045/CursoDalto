@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.cel-card {
+    border: solid 3px #2e2e2e;
+    border-radius: 8px;
+    width: 40vw;
+    margin: 30px 30vw;
+    padding: 10px;
+    text-align: center;
+}
+
+#test-card {
+    border: solid 3px #2e2e2e;
+    border-radius: 8px;
+    width: 40vw;
+    margin: 30px 30vw;
+    padding: 10px;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    letter-spacing: 1.2;
+    border-radius: 8px;
+    margin: 10px;
+}
