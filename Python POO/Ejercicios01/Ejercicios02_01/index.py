@@ -6,7 +6,7 @@ correo = input("Escribe tu direccion de correo electronico: ")
 objUsuario = Usuario(nombre, correo)
 
 nombre_obj = objUsuario.nombre
-correo_obj = objUsuario.correo
+correo_obj = objUsuario.correoo
 
 print(f"""
 Nombre: {nombre_obj} \n
