@@ -14,12 +14,12 @@ li > em {
 /* Selector de hermano adyacente */
 
 h1 + p {
-    color: #2af
+    color: #1e1e1e;
 }
 
 /* Selector de hermanos generales */
 
 h1 ~ p {
-    color: #dfd;
+    color: #1e1e1e;
     text-shadow: 0 0 4px #0006;
 }
