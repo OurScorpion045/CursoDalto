@@ -1,0 +1,20 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+}
+
+h1:active {
+    color: #000;
+}
+
+li:first-child {
+    color: #f00;
+}
+
+li:last-child {
+    color: #f00;
+}
+
+li:nth-child(2n) {
+    color: #0d0;
+}
