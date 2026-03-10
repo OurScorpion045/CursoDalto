@@ -1,0 +1,31 @@
+div {
+    padding: 20px;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+div::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+div::selection {
+    background-color: red;
+    color: #efefef;
+}
+
+input::placeholder {
+    color: green;
+}
+
+li::before {
+    content: 'Antes ';
+    color: red;
+}
+
+li::after {
+    content: ' Despues';
+    color: red;
+}
