@@ -1,0 +1,29 @@
+.lista {
+    border: solid 2px #000;
+}
+
+.lista--vintage {
+    opacity: 0.5;
+    background-color: #ccc;
+    color: #3e3e3e;
+}
+
+.lista--dark {
+    background-color: #2e2e2e;
+    color: #efefef;
+}
+
+.lista__item {
+    color: grey;
+    margin: 10px 0;
+    list-style: square;
+    color: inherit;
+}
+
+.item--danino {
+    color: red;
+}
+
+.item--importante {
+    color: #09f;
+}
