@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav__link {
+    border: solid 1px #ededed;
+    padding: 8px 10px; 
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ededed;
+    font-family: sans-serif;
+}
+
+.nav__link:hover {
+    color: #48e;
+    background-color: #ededed;
+}
