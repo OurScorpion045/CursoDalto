@@ -2,6 +2,8 @@ const parrafo = document.getElementById("parrafo");
 
 const parrafos = document.getElementsByTagName("p");
 
-const input = document.getElementById("input");
+let inputCss = document.querySelector(".input");
 
-input.setAttribute("type", "text");
+inputCss.style.backgroundColor = "blue";
+
+console.log(inputCss.removeAttribute("type"));

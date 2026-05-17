@@ -1,0 +1,11 @@
+.input {
+    background-color: #f22;
+    text-align: center;
+    display: block;
+    width: 60vw;
+    height: 20vh;
+    margin: auto;
+    color: #efefef;
+    font-size: large;
+    font-weight: bold;
+}
