@@ -9,3 +9,13 @@
     font-size: large;
     font-weight: bold;
 }
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.titulo:hover {
+    color: #777;
+}

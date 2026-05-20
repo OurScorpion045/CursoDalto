@@ -4,6 +4,10 @@ const parrafos = document.getElementsByTagName("p");
 
 let inputCss = document.querySelector(".input");
 
-inputCss.style.backgroundColor = "blue";
+inputCss.setAttribute("style", "background-color: #2F6");
 
-console.log(inputCss.removeAttribute("type"));
+
+const titulo = document.querySelector(".titulo");
+
+titulo.setAttribute("style", "color: #f00");
+console.log(titulo.getAttribute("style"));
